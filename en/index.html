@@ -42,7 +42,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Onest:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://mbotirjondev.github.io/#person", "name": "Botirjon Mahamadaliyev", "alternateName": ["Botirjon", "Ботиржон Махамадалиев", "MBotirjonDev"], "url": "https://mbotirjondev.github.io/en/", "image": "https://mbotirjondev.github.io/og-image.png", "jobTitle": "Flutter Developer", "description": "Botirjon Mahamadaliyev is a Flutter developer from Namangan, Uzbekistan. Mobile apps, Telegram bots and Mini Apps, AI agents, security audits and robotics.", "address": {"@type": "PostalAddress", "addressLocality": "Namangan", "addressCountry": "UZ"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Tashkent University of Information Technologies (TATU), Namangan"}, {"@type": "EducationalOrganization", "name": "Najot Ta'lim"}], "knowsAbout": ["Flutter", "Dart", "Telegram Bot API", "Telegram Mini Apps", "Frontend development", "Mobile app security", "Supabase", "AI agents", "Prompt engineering", "Arduino", "Robotics", "YouTube SEO"], "knowsLanguage": ["uz", "ru", "en"], "sameAs": ["https://github.com/MBotirjonDev", "https://www.linkedin.com/in/botirjon-mahamadaliyev-357593231/", "https://t.me/MBotirjon03", "https://medium.com/@mahamadaliyevbotirjon184"]}, {"@type": "WebSite", "@id": "https://mbotirjondev.github.io/#website", "url": "https://mbotirjondev.github.io/", "name": "Botirjon Mahamadaliyev", "inLanguage": ["uz", "ru", "en"], "publisher": {"@id": "https://mbotirjondev.github.io/#person"}}, {"@type": "ProfilePage", "@id": "https://mbotirjondev.github.io/en/#profile", "url": "https://mbotirjondev.github.io/en/", "name": "Botirjon Mahamadaliyev — Flutter Developer, Telegram Mini Apps & AI | Portfolio", "inLanguage": "en", "mainEntity": {"@id": "https://mbotirjondev.github.io/#person"}, "isPartOf": {"@id": "https://mbotirjondev.github.io/#website"}, "dateModified": "2026-11-01T09:30:00+05:00"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://mbotirjondev.github.io/#person", "name": "Botirjon Mahamadaliyev", "alternateName": ["Botirjon", "Ботиржон Махамадалиев", "MBotirjonDev"], "url": "https://mbotirjondev.github.io/en/", "image": "https://mbotirjondev.github.io/og-image.png", "jobTitle": "Flutter Developer", "description": "Botirjon Mahamadaliyev is a Flutter developer from Namangan, Uzbekistan. Mobile apps, Telegram bots and Mini Apps, AI agents, security audits and robotics.", "address": {"@type": "PostalAddress", "addressLocality": "Namangan", "addressCountry": "UZ"}, "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Tashkent University of Information Technologies (TATU), Namangan"}, {"@type": "EducationalOrganization", "name": "Najot Ta'lim"}], "knowsAbout": ["Flutter", "Dart", "Telegram Bot API", "Telegram Mini Apps", "Frontend development", "Mobile app security", "Supabase", "AI agents", "Prompt engineering", "Arduino", "Robotics", "YouTube SEO"], "knowsLanguage": ["uz", "ru", "en"], "sameAs": ["https://github.com/MBotirjonDev", "https://www.linkedin.com/in/botirjon-mahamadaliyev-357593231/", "https://t.me/MBotirjon03", "https://medium.com/@mahamadaliyevbotirjon184", "https://www.agensi.io/creators/botirjon-mahamadaliyev"]}, {"@type": "WebSite", "@id": "https://mbotirjondev.github.io/#website", "url": "https://mbotirjondev.github.io/", "name": "Botirjon Mahamadaliyev", "inLanguage": ["uz", "ru", "en"], "publisher": {"@id": "https://mbotirjondev.github.io/#person"}}, {"@type": "ProfilePage", "@id": "https://mbotirjondev.github.io/en/#profile", "url": "https://mbotirjondev.github.io/en/", "name": "Botirjon Mahamadaliyev — Flutter Developer, Telegram Mini Apps & AI | Portfolio", "inLanguage": "en", "mainEntity": {"@id": "https://mbotirjondev.github.io/#person"}, "isPartOf": {"@id": "https://mbotirjondev.github.io/#website"}, "dateModified": "2026-11-11T14:30:00+05:00"}]}</script>
 <style>
 /* Layout: single editorial column, Dart-code hero card beside the intro, project grid, then a two-column experience/education band */
 :root{
@@ -177,6 +177,16 @@ html[lang="ru"] .hero h1{font-size:clamp(32px,4.8vw,54px)}
 .lang a{font-family:var(--mono);font-size:12px;font-weight:500;text-decoration:none;color:var(--muted);padding:5px 10px;border-radius:999px;letter-spacing:.04em}
 .lang a:hover{color:var(--ink)}
 .lang a[aria-current="true"]{background:var(--ink);color:var(--bg)}
+.group-title{font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:36px 0 14px;display:flex;align-items:center;gap:12px}
+.group-title::after{content:"";flex:1;height:1px;background:var(--line)}
+#loyihalar .sec-head + .group-title{margin-top:0}
+.chip-links{display:flex;flex-wrap:wrap;gap:8px;padding-top:4px}
+.chip-link{font-size:13px;font-weight:600;text-decoration:none;padding:6px 12px;border-radius:999px;border:1.5px solid var(--line);color:var(--ink);transition:border-color .15s ease,background .15s ease}
+.chip-link:hover{border-color:var(--ink);background:var(--bg)}
+.new{display:inline-block;vertical-align:middle;margin-left:6px;font-family:var(--mono);font-size:11px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;padding:2px 8px;border-radius:999px;background:var(--signal);color:var(--surface)}
+.checks.score b{min-width:36px;text-align:right}
+.checks b.ok{color:var(--accent)}
+.card .tags{margin-top:auto}
 </style>
 </head>
 <body>
@@ -237,17 +247,47 @@ html[lang="ru"] .hero h1{font-size:clamp(32px,4.8vw,54px)}
         <div class="eyebrow">Projects</div>
         <h2>Selected work</h2>
       </div>
-      <p>Open-source security tools, a startup and bots built for clients.</p>
+      <p>10 open-source projects: Flutter tools, skills for AI agents and security audits. All on GitHub, most on Agensi, and a few written up on Medium.</p>
     </div>
 
+    <h3 class="group-title">Flutter & Dart</h3>
     <div class="grid">
+      <article class="card feature">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <a class="repo" href="https://github.com/MBotirjonDev/flutter-unslop" target="_blank" rel="noopener">MBotirjonDev/flutter-unslop</a>
+          <h3>Flutter Unslop <span class="new">New</span></h3>
+          <p>Finds the tells of AI-written Flutter UIs and gives a slop score from 0 to 100. 13 rules, validated on real open-source apps. The agent explains what to change.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">UI</span><span class="tag">Agent skill</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/flutter-unslop" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://medium.com/@mahamadaliyevbotirjon184/why-every-ai-written-flutter-app-looks-the-same-and-a-tool-that-scores-it-88bd0ab162dc" target="_blank" rel="noopener">Medium ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a></div>
+        </div>
+        <ul class="checks score" aria-label="Slop score">
+          <li><b>72</b>examples/before</li>
+          <li><b class="ok">0</b>examples/after</li>
+          <li><b>10</b>localsend</li>
+          <li><b class="ok">0</b>compass_app</li>
+        </ul>
+      </article>
+      <article class="card">
+          <a class="repo" href="https://github.com/MBotirjonDev/uz_payments" target="_blank" rel="noopener">MBotirjonDev/uz_payments</a>
+          <h3>uz_payments <span class="new">New</span></h3>
+          <p>Payme and Click payments for Dart and Flutter: checkout links and verified merchant webhooks. Zero dependencies, 52 tests.</p>
+          <div class="tags"><span class="tag">Dart</span><span class="tag">pub.dev</span><span class="tag">Payme · Click</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/uz_payments" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://pub.dev/packages/uz_payments" target="_blank" rel="noopener">pub.dev ↗</a></div>
+      </article>
+      <article class="card">
+          <a class="repo" href="https://github.com/MBotirjonDev/flutter-release-checker" target="_blank" rel="noopener">MBotirjonDev/flutter-release-checker</a>
+          <h3>Flutter Release Checker</h3>
+          <p>Finds what gets Flutter apps rejected by Google Play and the App Store before you upload. 29 checks, JSON/SARIF, GitHub Action.</p>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag">App Store</span><span class="tag">Google Play</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/flutter-release-checker" target="_blank" rel="noopener">GitHub ↗</a></div>
+      </article>
       <article class="card feature">
         <div style="display:flex;flex-direction:column;gap:12px">
           <a class="repo" href="https://github.com/MBotirjonDev/flutter-audit-agent" target="_blank" rel="noopener">MBotirjonDev/flutter-audit-agent</a>
           <h3>Flutter Audit Agent</h3>
           <p>An open-source skill and scanner that audits Flutter projects for security issues. An AI agent reviews the code and points out the weak spots.</p>
-          <div class="tags"><span class="tag">Open source</span><span class="tag">Flutter</span><span class="tag sec">Security</span></div>
-          <a class="view" href="https://github.com/MBotirjonDev/flutter-audit-agent" target="_blank" rel="noopener">View on GitHub ↗</a>
+          <div class="tags"><span class="tag">Flutter</span><span class="tag sec">Security</span><span class="tag">GitHub Action</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/flutter-audit-agent" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a></div>
         </div>
         <ul class="checks" aria-label="Sample findings">
           <li><b>HIGH</b>API keys left in source code</li>
@@ -255,45 +295,69 @@ html[lang="ru"] .hero h1{font-size:clamp(32px,4.8vw,54px)}
           <li><b>LOW</b>Debug logs left in release builds</li>
         </ul>
       </article>
-
+    </div>
+    <h3 class="group-title">Tools for AI agents</h3>
+    <div class="grid">
       <article class="card">
-        <a class="repo" href="https://github.com/MBotirjonDev/telegram-miniapp-audit" target="_blank" rel="noopener">MBotirjonDev/telegram-miniapp-audit</a>
-        <h3>Telegram Mini App Audit</h3>
-        <p>A security audit skill for Telegram bots and Mini Apps.</p>
-        <div class="tags"><span class="tag">Open source</span><span class="tag">Telegram</span><span class="tag sec">Security</span></div>
-        <a class="view" href="https://github.com/MBotirjonDev/telegram-miniapp-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
+          <a class="repo" href="https://github.com/MBotirjonDev/mcp-security-audit" target="_blank" rel="noopener">MBotirjonDev/mcp-security-audit</a>
+          <h3>MCP Security Audit</h3>
+          <p>Finds poisoned MCP tools, hidden prompts in CLAUDE.md and .cursorrules, leaked tokens and risky agent permissions.</p>
+          <div class="tags"><span class="tag">MCP</span><span class="tag">Claude Code</span><span class="tag">Cursor</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/mcp-security-audit" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a><a class="chip-link" href="https://medium.com/@mahamadaliyevbotirjon184" target="_blank" rel="noopener">Medium ↗</a></div>
       </article>
-
       <article class="card">
-        <a class="repo" href="https://github.com/MBotirjonDev/supabase-rls-audit" target="_blank" rel="noopener">MBotirjonDev/supabase-rls-audit</a>
-        <h3>Supabase RLS Audit</h3>
-        <p>A skill that checks Supabase Row Level Security policies.</p>
-        <div class="tags"><span class="tag">Open source</span><span class="tag">Supabase</span><span class="tag sec">Security</span></div>
-        <a class="view" href="https://github.com/MBotirjonDev/supabase-rls-audit" target="_blank" rel="noopener">View on GitHub ↗</a>
+          <a class="repo" href="https://github.com/MBotirjonDev/context-rent" target="_blank" rel="noopener">MBotirjonDev/context-rent</a>
+          <h3>context-rent <span class="new">New</span></h3>
+          <p>Measures where tokens go in Claude Code and Codex sessions and shows what is renting your context.</p>
+          <div class="tags"><span class="tag">Claude Code</span><span class="tag">Codex</span><span class="tag">Tokens</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/context-rent" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a></div>
       </article>
-
       <article class="card">
-        <a class="repo" href="https://github.com/MBotirjonDev/flutter-release-checker" target="_blank" rel="noopener">MBotirjonDev/flutter-release-checker</a>
-        <h3>Flutter Release Checker</h3>
-        <p>Checks whether an app is ready to ship to the App Store and Google Play.</p>
-        <div class="tags"><span class="tag">Open source</span><span class="tag">Flutter</span></div>
-        <a class="view" href="https://github.com/MBotirjonDev/flutter-release-checker" target="_blank" rel="noopener">View on GitHub ↗</a>
+          <a class="repo" href="https://github.com/MBotirjonDev/skillset-lint" target="_blank" rel="noopener">MBotirjonDev/skillset-lint</a>
+          <h3>skillset-lint <span class="new">New</span></h3>
+          <p>A linter for agent skills: catches problems in SKILL.md structure, description quality and hidden Unicode characters. Runs in CI.</p>
+          <div class="tags"><span class="tag">SKILL.md</span><span class="tag">Linter</span><span class="tag">CI</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/skillset-lint" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a></div>
       </article>
-
+      <article class="card">
+          <a class="repo" href="https://github.com/MBotirjonDev/fable-receipts" target="_blank" rel="noopener">MBotirjonDev/fable-receipts</a>
+          <h3>fable-receipts <span class="new">New</span></h3>
+          <p>A skill that keeps Claude Opus working with discipline. Every rule comes from a real incident: never claim “done” without checking, read the result back.</p>
+          <div class="tags"><span class="tag">Claude</span><span class="tag">Agent skill</span><span class="tag">Workflow</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/fable-receipts" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a><a class="chip-link" href="https://medium.com/@mahamadaliyevbotirjon184/i-used-claude-fable-5-2-for-a-few-days-before-switching-back-i-made-it-write-down-how-it-works-70fce878bfe3" target="_blank" rel="noopener">Medium ↗</a></div>
+      </article>
+    </div>
+    <h3 class="group-title">Security audits</h3>
+    <div class="grid">
+      <article class="card">
+          <a class="repo" href="https://github.com/MBotirjonDev/telegram-miniapp-audit" target="_blank" rel="noopener">MBotirjonDev/telegram-miniapp-audit</a>
+          <h3>Telegram Mini App Audit</h3>
+          <p>Audits Telegram bots and Mini Apps: initData HMAC, webhook secrets, Stars payments. JSON/SARIF output, GitHub Action.</p>
+          <div class="tags"><span class="tag">Telegram</span><span class="tag sec">Security</span><span class="tag">SARIF</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/telegram-miniapp-audit" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a></div>
+      </article>
+      <article class="card">
+          <a class="repo" href="https://github.com/MBotirjonDev/supabase-rls-audit" target="_blank" rel="noopener">MBotirjonDev/supabase-rls-audit</a>
+          <h3>Supabase RLS Audit</h3>
+          <p>Audits Supabase Row Level Security like an attacker holding your anon key: missing RLS, leaky policies, definer views, service_role leaks.</p>
+          <div class="tags"><span class="tag">Supabase</span><span class="tag">Postgres</span><span class="tag sec">Security</span></div>
+          <div class="chip-links"><a class="chip-link" href="https://github.com/MBotirjonDev/supabase-rls-audit" target="_blank" rel="noopener">GitHub ↗</a><a class="chip-link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener">Agensi ↗</a><a class="chip-link" href="https://medium.com/@mahamadaliyevbotirjon184" target="_blank" rel="noopener">Medium ↗</a></div>
+      </article>
+    </div>
+    <h3 class="group-title">Products & client work</h3>
+    <div class="grid">
       <article class="card">
         <div class="eyebrow">Startup · founder</div>
         <h3>E-success</h3>
         <p>A real-time video consultation platform and business marketplace for entrepreneurs: Live Arena, Deal Room, Pitch Hub, Creator Market.</p>
         <div class="tags"><span class="tag">Flutter</span><span class="tag">Product</span></div>
       </article>
-
       <article class="card">
         <div class="eyebrow">Telegram Mini App</div>
         <h3>Korean Words Mini App</h3>
         <p>Teaches Korean vocabulary to Uzbek speakers: flashcards, multiple choice, matching and typing on a Korean keyboard.</p>
         <div class="tags"><span class="tag">Flutter Web</span><span class="tag">Telegram</span></div>
       </article>
-
       <article class="card">
         <div class="eyebrow">Freelance</div>
         <h3>Agro Globus</h3>
@@ -392,6 +456,7 @@ html[lang="ru"] .hero h1{font-size:clamp(32px,4.8vw,54px)}
       <a class="link" href="https://github.com/MBotirjonDev" target="_blank" rel="noopener">github.com/MBotirjonDev <small>GitHub</small></a>
       <a class="link" href="https://www.linkedin.com/in/botirjon-mahamadaliyev-357593231/" target="_blank" rel="noopener">LinkedIn <small>Profile</small></a>
       <a class="link" href="https://medium.com/@mahamadaliyevbotirjon184" target="_blank" rel="noopener me">Medium <small>Blog</small></a>
+      <a class="link" href="https://www.agensi.io/creators/botirjon-mahamadaliyev" target="_blank" rel="noopener me">Agensi <small>Skills</small></a>
     </div>
   </section>
 </main>
